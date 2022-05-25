@@ -129,11 +129,13 @@ img{
 
 .workflow .workflow__flex{
     display: flex;
-    margin: 3em 2em 8em;
+    justify-content: space-between;
+    margin: 3em 0em 8em;
 }
 
 .workflow .workflow__flex .workflow__list{
     flex: 1;
+    padding: 0 0.5em;
 }
 
 .workflow .workflow__flex .workflow__list img{
