@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 1em 2em;
+    font-size: 1rem;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn--green{
+    background-color: rgb(3, 187, 187);
+    box-shadow: 0px 1px 2px rgb(133, 133, 133), 0px 8px 20px rgba(3, 187, 187, 0.322);
+    transition: .5s;
+
+}
+.btn--green:hover{
+    background-color: rgba(3, 187, 187, 0.623);
+}
+
+.btn--blue{
+    background-color: rgb(109, 109, 218);
+    box-shadow: 0px 1px 2px rgb(133, 133, 133), 0px 8px 20px rgba(109, 109, 218, 0.5);
+    margin-left: 15px;
+    transition: .5s;
+}
+.btn--blue:hover{
+    background-color: rgb(109, 109, 218, 0.623);
+}
+
+.heading__one{
+    font-size: 2.1rem;
+    color: rgb(70, 69, 69);
+}
+
+.heading__two{
+    font-size: 1.6rem;
+    color: rgb(70, 69, 69);
+}
+
+.heading__three{
+    font-size: 1.3rem;
+    color: rgb(70, 69, 69);
+}
+.title__description{
+    font-size: 1.1rem;
+    color: rgb(156, 156, 156);
+    margin-top: 0.4em;
+}
+
+.fixed__width{
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+.intro{
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8em 0em 4em;
+}
+
+
+.intro .bg__title{
+    margin: 1em 0 0 0;
+}
+
+.intro .btn__group{
+    margin: 2em;
+}
+
+
+
+
+
+.feature .flex__items{
+    display: flex;
+    flex: 1;
+    margin: 4em 0;
+}
+
+.feature .feature__list{
+    padding: 0 6em;
+}
+
+.feature .feature__list div{
+    margin: 2em 0 5em;
+}
+
+.feature .desktop_picture img{
+    margin-left: -1.5em;
+}
+
+.clipboard .img__devices{
+    margin: 5em 0 5em 0;
+    width: 100%;
+}
+
+
+
+
+.workflow .workflow__flex{
+    display: flex;
+    margin: 3em 2em 8em;
+}
+
+.workflow .workflow__flex .workflow__list{
+    flex: 1;
+}
+
+.workflow .workflow__flex .workflow__list img{
+    margin: 0 0 3em;
+}
+
+.workflow .workflow__flex .first img{
+    margin: 0 0 2.5em;
+}
+
+.workflow .workflow__company{
+    display: flex;
+    justify-content: space-between;
+}
+
+.workflow .workflow__company img{
+    height: 80%;
+}
+
+
+
+
+
+
+.download{
+    margin: 8em 0;
+}
+
+.download .btn__group{
+    margin-top: 3em;
+}
+
+footer{
+    background-color: rgb(248, 248, 248);
+}
+
+footer .flex__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+}
+
+footer .flex__items img{
+    width: 50%;
+}
+
+footer .flex__items .link__list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+footer .flex__items .link__list .footer__item{
+padding:0 2.5em;
+line-height: 2;
+list-style: none;
+}
+
+footer .flex__items .link__list .footer__item .footer__link{
+    font-size: 1rem;
+    color: rgb(70, 69, 69);
+    text-decoration: none;
+}
+
+footer .flex__items .link__list .footer__item .footer__link:hover{
+    color: rgb(3, 187, 187);
+}
+
+footer .flex__items .scoial__icons{
+    display: flex;
+    justify-content:flex-end;
+    flex: 2;
+}
+
+footer .flex__items .scoial__icons svg{
+    cursor: pointer;
+}
+
+footer .flex__items .scoial__icons svg:hover path{
+    fill: rgb(3, 187, 187);
+}
+
+footer .flex__items .scoial__icons .twitter{
+    margin: 0 2em;
+}
